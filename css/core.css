@@ -1,0 +1,346 @@
+html , body , div , span , ul {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    /* Comentarios */
+    font-family: 'Lato','arial';
+    font-size: 1em;
+}
+body{text-align: center;}
+[data-region='navigator']{
+    
+}
+.banner{}
+#barra{
+    width: 98vw;
+    border-bottom: 1px solid #cbcbcb;
+    padding: 0 1vw 20px 1vw;
+    box-shadow: 1px 46px 16px -49px #424242;
+    text-align: left;
+    margin: 0 0 57px 0;
+    overflow-x: hidden;
+} 
+#element-1 h4:first-of-type{border-bottom: 2px dotted #d2d2d2;}
+#element-1 h4:nth-of-type(2){border-bottom: 2px solid #d2d2d2;}
+#element-1 h4:nth-of-type(3){border-bottom: 2px ridge #d2d2d2;}
+#element-1 h4:last-of-type{border-bottom: 2px dashed #d2d2d2;}
+
+#element-2 h4:first-of-type{overflow-x: hidden;width: 180px;white-space: nowrap;margin: 12px auto;border: 1px solid #bdbcbc;}
+#element-2 h4:nth-of-type(2){overflow-x: scroll;width: 180px;white-space: nowrap;margin: 10px auto;border: 1px solid #bdbcbc;}
+#element-2 h4:nth-of-type(3){overflow-y: hidden;width: 180px;/*! white-space: nowrap; */margin: 11px auto;border: 1px solid #bdbcbc;height: 31px;}
+#element-2 h4:last-of-type{overflow-y: scroll;width: 180px;margin: 11px auto;border: 1px solid #bdbcbc;height: 37px;}
+
+#element-5 div:nth-last-child(4){border-radius: 50%;border: 1px solid #d2d2d2;height: 100px;width: 100px;text-align: center;align-content: center;line-height: 100px;display: inline-block;}
+#element-5 div:nth-last-child(3){border-radius: 5px;border: 1px solid #d2d2d2;height: 100px;width: 100px;text-align: center;align-content: center;line-height: 100px;display: inline-block;}
+#element-5 div:nth-last-child(2){border-botom-right-radius: 50%;border-top-left-radius: 43px;border-bottom-right-radius: 35px;border: 1px solid #d2d2d2;height: 100px;width: 100px;text-align: center;align-content: center;line-height: 100px;}
+
+
+
+#element-2:before{content: 'overflow options';position: absolute;margin: -19px 0 0 21px;position: absolute;color: #999;font-weight: bold;}
+#element-1:before{content: 'Bordes y Selectores of-type';position: absolute;margin: -19px 0 0 -63px;position: absolute;color: #999;font-weight: bold;}
+.banner ul{list-style: none;width: 120vw;}
+.banner ul li{width: auto;display: inline-block;margin: 0 8px;transition: all 200ms ease;}
+.banner ul li:hover{transition: all 200ms ease;letter-spacing: 2px;cursor: pointer;font-weight: bold;}
+.banner h1{text-shadow: 2px -1px 2px #b4b4b4;padding: 0 0 0 6px;}
+#element-4:before{content: 'Position: absolute';margin: -19px 0 0 5px;position: absolute;color: #999;font-weight: bold;}
+#element-4{position: relative;/*! background-image: url(https://ih1.redbubble.net/image.58392162.6861/flat,800x800,075,f.u3.jpg); */background-size: auto 98%;background-repeat: no-repeat;background-position-x: center;}
+#element-4 i{width: 10px;height: 10px;background-color: #999;display: inline-block;margin: 0;padding: 0;position: absolute;left: 0;top: 0;transition: all 2000ms ease;}
+#element-4 i:hover{box-shadow: 1px 1px 4px #000;cursor: crosshair;padding: 5px;z-index: 10;}
+[id|='element']{width: 300px;height: 200px;border: 1px solid #d2d2d2;margin: 4px 7px;padding: 0 0 0 0;display: inline-block;border-radius: 7px;transition: all 200ms ease;vertical-align: top;text-align: center;}
+[id|='element']:hover{border: 1px solid #444;transition: all 800ms ease;}
+#element-3{width: 80px;margin: 4px -12px 0 0;z-index: 8;}
+
+/* luigi Bross */
+
+#element-4 .luigi i:nth-of-type(1){background-color: #00FE00;left: 119px;top: 17px;}
+#element-4 .luigi i:nth-of-type(2){background-color: #00FE00;left: 129px;top: 17px;}
+#element-4 .luigi i:nth-of-type(3){background-color: #00FE00;left: 139px;top: 17px;}
+#element-4 .luigi i:nth-of-type(4){background-color: #00FE00;left: 149px;top: 17px;}
+#element-4 .luigi i:nth-of-type(5){background-color: #00FE00;left: 159px;top: 17px;}
+#element-4 .luigi i:nth-of-type(6){background-color: #00FE00;left: 109px;top: 27px;}
+#element-4 .luigi i:nth-of-type(7){background-color: #00FE00;left: 119px;top: 27px;}
+#element-4 .luigi i:nth-of-type(8){background-color: #00FE00;left: 129px;top: 27px;}
+#element-4 .luigi i:nth-of-type(9){background-color: #00FE00;left: 139px;top: 27px;}
+#element-4 .luigi i:nth-of-type(10){background-color: #00FE00;left: 149px;top: 27px;}
+#element-4 .luigi i:nth-of-type(11){background-color: #00FE00;left: 159px;top: 27px;}
+#element-4 .luigi i:nth-of-type(12){background-color: #00FE00;left: 169px;top: 27px;}
+#element-4 .luigi i:nth-of-type(13){background-color: #00FE00;left: 179px;top: 27px;}
+#element-4 .luigi i:nth-of-type(14){background-color: #00FE00;left: 189px;top: 27px;}
+#element-4 .luigi i:nth-of-type(15){background-color: #7e1336;left: 109px;top: 37px;}
+#element-4 .luigi i:nth-of-type(16){background-color: #7e1336;left: 119px;top: 37px;}
+#element-4 .luigi i:nth-of-type(17){background-color: #7e1336;left: 129px;top: 37px;}
+#element-4 .luigi i:nth-of-type(18){background-color: #7e1336;left: 99px;top: 47px;}
+#element-4 .luigi i:nth-of-type(19){background-color: #7e1336;left: 119px;top: 47px;}
+#element-4 .luigi i:nth-of-type(20){background-color: #7e1336;left: 159px;top: 37px;}
+#element-4 .luigi i:nth-of-type(21){background-color: #7e1336;left: 159px;top: 47px;}
+#element-4 .luigi i:nth-of-type(22){background-color: #7e1336;left: 99px;top: 57px;}
+#element-4 .luigi i:nth-of-type(23){background-color: #7e1336;left: 119px;top: 57px;}
+#element-4 .luigi i:nth-of-type(24){background-color: #7e1336;left: 129px;top: 57px;}
+#element-4 .luigi i:nth-of-type(25){background-color: #7e1336;left: 169px;top: 57px;}
+#element-4 .luigi i:nth-of-type(26){background-color: #7e1336;left: 99px;top: 67px;}
+#element-4 .luigi i:nth-of-type(27){background-color: #7e1336;left: 109px;top: 67px;}
+#element-4 .luigi i:nth-of-type(28){background-color: #7e1336;left: 159px;top: 67px;}
+#element-4 .luigi i:nth-of-type(29){background-color: #7e1336;left: 169px;top: 67px;}
+#element-4 .luigi i:nth-of-type(30){background-color: #7e1336;left: 179px;top: 67px;}
+#element-4 .luigi i:nth-of-type(31){background-color: #7e1336;left: 189px;top: 67px;}
+#element-4 .luigi i:nth-of-type(32){background-color: #f8aa00;left: 139px;top: 37px;}
+#element-4 .luigi i:nth-of-type(33){background-color: #f8aa00;left: 149px;top: 37px;}
+#element-4 .luigi i:nth-of-type(34){background-color: #f8aa00;left: 169px;top: 37px;}
+#element-4 .luigi i:nth-of-type(35){background-color: #f8aa00;left: 109px;top: 47px;}
+#element-4 .luigi i:nth-of-type(36){background-color: #f8aa00;left: 129px;top: 47px;}
+#element-4 .luigi i:nth-of-type(37){background-color: #f8aa00;left: 139px;top: 47px;}
+#element-4 .luigi i:nth-of-type(38){background-color: #f8aa00;left: 149px;top: 47px;}
+#element-4 .luigi i:nth-of-type(39){background-color: #f8aa00;left: 169px;top: 47px;}
+#element-4 .luigi i:nth-of-type(40){background-color: #f8aa00;left: 179px;top: 47px;}
+#element-4 .luigi i:nth-of-type(41){background-color: #f8aa00;left: 189px;top: 47px;}
+#element-4 .luigi i:nth-of-type(42){background-color: #f8aa00;left: 109px;top: 57px;}
+#element-4 .luigi i:nth-of-type(43){background-color: #f8aa00;left: 139px;top: 57px;}
+#element-4 .luigi i:nth-of-type(44){background-color: #f8aa00;left: 149px;top: 57px;}
+#element-4 .luigi i:nth-of-type(45){background-color: #f8aa00;left: 159px;top: 57px;}
+#element-4 .luigi i:nth-of-type(46){background-color: #f8aa00;left: 179px;top: 57px;}
+#element-4 .luigi i:nth-of-type(47){background-color: #f8aa00;left: 189px;top: 57px;}
+#element-4 .luigi i:nth-of-type(48){background-color: #f8aa00;left: 199px;top: 57px;}
+#element-4 .luigi i:nth-of-type(49){background-color: #f8aa00;left: 119px;top: 67px;}
+#element-4 .luigi i:nth-of-type(50){background-color: #f8aa00;left: 129px;top: 67px;}
+#element-4 .luigi i:nth-of-type(51){background-color: #f8aa00;left: 139px;top: 67px;}
+#element-4 .luigi i:nth-of-type(52){background-color: #f8aa00;left: 149px;top: 67px;}
+#element-4 .luigi i:nth-of-type(53){background-color: #f8aa00;left: 119px;top: 77px;}
+#element-4 .luigi i:nth-of-type(54){background-color: #f8aa00;left: 129px;top: 77px;}
+#element-4 .luigi i:nth-of-type(55){background-color: #f8aa00;left: 139px;top: 77px;}
+#element-4 .luigi i:nth-of-type(56){background-color: #f8aa00;left: 149px;top: 77px;}
+#element-4 .luigi i:nth-of-type(57){background-color: #f8aa00;left: 159px;top: 77px;}
+#element-4 .luigi i:nth-of-type(58){background-color: #f8aa00;left: 169px;top: 77px;}
+#element-4 .luigi i:nth-of-type(59){background-color: #f8aa00;left: 179px;top: 77px;}
+#element-4 .luigi i:nth-of-type(60){background-color: #00FE00;left: 109px;top: 87px;width: 20px;}
+#element-4 .luigi i:nth-of-type(61){background-color: #00FE00;left: 139px;top: 87px;width: 20px;}
+#element-4 .luigi i:nth-of-type(62){background-color: #00FE00;left: 159px;top: 87px;}
+#element-4 .luigi i:nth-of-type(63){background-color: #00FE00;left: 99px;top: 97px;}
+#element-4 .luigi i:nth-of-type(64){background-color: #00FE00;left: 109px;top: 97px;}
+#element-4 .luigi i:nth-of-type(65){background-color: #00FE00;left: 119px;top: 97px;}
+#element-4 .luigi i:nth-of-type(66){background-color: #00FE00;left: 139px;top: 97px;}
+#element-4 .luigi i:nth-of-type(67){background-color: #00FE00;left: 149px;top: 97px;}
+#element-4 .luigi i:nth-of-type(68){background-color: #00FE00;left: 169px;top: 97px;}
+#element-4 .luigi i:nth-of-type(69){background-color: #0026ff;left: 129px;top: 87px;}
+#element-4 .luigi i:nth-of-type(70){background-color: #0026ff;left: 129px;top: 97px;}
+#element-4 .luigi i:nth-of-type(71){background-color: #0026ff;left: 129px;top: 107px;}
+#element-4 .luigi i:nth-of-type(72){background-color: #0026ff;left: 139px;top: 107px;}
+#element-4 .luigi i:nth-of-type(73){background-color: #0026ff;left: 149px;top: 107px;}
+#element-4 .luigi i:nth-of-type(74){background-color: #0026ff;left: 159px;top: 107px;}
+#element-4 .luigi i:nth-of-type(75){background-color: #0026ff;left: 119px;top: 117px;}
+#element-4 .luigi i:nth-of-type(76){background-color: #0026ff;left: 139px;top: 117px;}
+#element-4 .luigi i:nth-of-type(77){background-color: #0026ff;left: 149px;top: 117px;}
+#element-4 .luigi i:nth-of-type(78){background-color: #0026ff;left: 169px;top: 117px;}
+#element-4 .luigi i:nth-of-type(79){background-color: #0026ff;left: 119px;top: 127px;}
+#element-4 .luigi i:nth-of-type(80){background-color: #0026ff;left: 129px;top: 127px;}
+#element-4 .luigi i:nth-of-type(81){background-color: #0026ff;left: 139px;top: 127px;}
+#element-4 .luigi i:nth-of-type(82){background-color: #0026ff;left: 149px;top: 127px;}
+#element-4 .luigi i:nth-of-type(83){background-color: #0026ff;left: 159px;top: 127px;  }
+#element-4 .luigi i:nth-of-type(84){background-color: #0026ff;left: 169px;top: 127px;}
+#element-4 .luigi i:nth-of-type(85){background-color: #00FE00;left: 119px;top: 107px;}
+#element-4 .luigi i:nth-of-type(86){background-color: #00FE00;left: 109px;top: 107px;}
+#element-4 .luigi i:nth-of-type(87){background-color: #00FE00;left: 99px;top: 107px;}
+#element-4 .luigi i:nth-of-type(88){background-color: #00FE00;left: 109px;top: 117px;}
+#element-4 .luigi i:nth-of-type(89){background-color: #00FE00;left: 89px;top: 107px;}
+#element-4 .luigi i:nth-of-type(90){background-color: #00FE00;left: 179px;top: 107px;}
+#element-4 .luigi i:nth-of-type(91){background-color: #0026ff;left: 159px;top: 97px;}
+#element-4 .luigi i:nth-of-type(92){background-color: #00FE00;left: 169px;top: 107px;}
+#element-4 .luigi i:nth-of-type(93){background-color: #00FE00;left: 189px;top: 107px;}
+#element-4 .luigi i:nth-of-type(94){background-color: #00FE00;left: 179px;top: 117px;}
+#element-4 .luigi i:nth-of-type(95){background-color: #00FE00;left: 189px;top: 97px;}
+#element-4 .luigi i:nth-of-type(96){background-color: #00FE00;left: 199px;top: 107px;}
+#element-4 .luigi i:nth-of-type(97){background-color: #00FE00;left: 179px;top: 97px;}
+#element-4 .luigi i:nth-of-type(98){background-color: #0026ff;left: 109px;top: 137px;}
+#element-4 .luigi i:nth-of-type(99){background-color: #0026ff;left: 119px;top: 137px;}
+#element-4 .luigi i:nth-of-type(100){background-color: #0026ff;left: 129px;top: 137px;}
+#element-4 .luigi i:nth-of-type(101){background-color: #0026ff;left: 139px;top: 137px;}
+#element-4 .luigi i:nth-of-type(102){background-color: #0026ff;left: 149px;top: 137px;}
+#element-4 .luigi i:nth-of-type(103){background-color: #0026ff;left: 159px;top: 137px;}
+#element-4 .luigi i:nth-of-type(104){background-color: #0026ff;left: 169px;top: 137px;}
+#element-4 .luigi i:nth-of-type(105){background-color: #0026ff;left: 179px;top: 137px;}
+#element-4 .luigi i:nth-of-type(106){background-color: #f8aa00;left: 109px;top: 127px;}
+#element-4 .luigi i:nth-of-type(107){background-color: #f8aa00;left: 99px;top: 117px;}
+#element-4 .luigi i:nth-of-type(108){background-color: #f8aa00;left: 89px;top: 117px;}
+#element-4 .luigi i:nth-of-type(109){background-color: #f8aa00;left: 99px;top: 127px;}
+#element-4 .luigi i:nth-of-type(110){background-color: #f8aa00;left: 89px;top: 127px;}
+#element-4 .luigi i:nth-of-type(111){background-color: #f8aa00;left: 89px;top: 137px;}
+#element-4 .luigi i:nth-of-type(112){background-color: #f8aa00;left: 99px;top: 137px;}
+#element-4 .luigi i:nth-of-type(113){background-color: #f8aa00;left: 179px;top: 127px;}
+#element-4 .luigi i:nth-of-type(114){background-color: #f8aa00;left: 189px;top: 117px;}
+#element-4 .luigi i:nth-of-type(115){background-color: #f8aa00;left: 189px;top: 127px;}
+#element-4 .luigi i:nth-of-type(116){background-color: #f8aa00;left: 189px;top: 137px;}
+#element-4 .luigi i:nth-of-type(117){background-color: #f8aa00;left: 199px;top: 117px;}
+#element-4 .luigi i:nth-of-type(118){background-color: #f8aa00;left: 199px;top: 127px;}
+#element-4 .luigi i:nth-of-type(119){background-color: #f8aa00;left: 199px;top: 137px;}
+#element-4 .luigi i:nth-of-type(120){background-color: #0026ff;left: 179px;top: 147px;}
+#element-4 .luigi i:nth-of-type(121){background-color: #0026ff;left: 169px;top: 147px;}
+#element-4 .luigi i:nth-of-type(122){background-color: #0026ff;left: 159px;top: 147px;}
+#element-4 .luigi i:nth-of-type(123){background-color: #0026ff;left: 129px;top: 147px;}
+#element-4 .luigi i:nth-of-type(124){background-color: #0026ff;left: 119px;top: 147px;}
+#element-4 .luigi i:nth-of-type(125){background-color: #0026ff;left: 109px;top: 147px;}
+#element-4 .luigi i:nth-of-type(126){background-color: #7e1336;left: 99px;top: 155px;}
+#element-4 .luigi i:nth-of-type(127){background-color: #7e1336;left: 109px;top: 155px;}
+#element-4 .luigi i:nth-of-type(128){background-color: #7e1336;left: 119px;top: 155px;}
+#element-4 .luigi i:nth-of-type(129){background-color: #7e1336;left: 169px;top: 157px;}
+#element-4 .luigi i:nth-of-type(130){background-color: #7e1336;left: 179px;top: 157px;}
+#element-4 .luigi i:nth-of-type(131){background-color: #7e1336;left: 189px;top: 157px;}
+#element-4 .luigi i:nth-of-type(132){background-color: #7e1336;left: 89px;top: 165px;}
+#element-4 .luigi i:nth-of-type(133){background-color: #7e1336;left: 99px;top: 165px;}
+#element-4 .luigi i:nth-of-type(134){background-color: #7e1336;left: 109px;top: 165px;}
+#element-4 .luigi i:nth-of-type(135){background-color: #7e1336;left: 119px;top: 165px;}
+#element-4 .luigi i:nth-of-type(136){background-color: #7e1336;left: 169px;top: 167px;}
+#element-4 .luigi i:nth-of-type(137){background-color: #7e1336;left: 179px;top: 167px;}
+#element-4 .luigi i:nth-of-type(138){background-color: #7e1336;left: 189px;top: 167px;}
+#element-4 .luigi i:nth-of-type(139){background-color: #7e1336;left: 199px;top: 167px;}
+#element-4 .luigi i:nth-of-type(140){background-color: #f8aa00;left: 129px;top: 117px;}
+#element-4 .luigi i:nth-of-type(141){background-color: #f8aa00;left: 159px;top: 117px;}
+
+
+
+/* Mario Bross */
+
+#element-4 .mario i:nth-of-type(1){background-color: #FE0000;left: 119px;top: 17px;}
+#element-4 .mario i:nth-of-type(2){background-color: #FE0000;left: 129px;top: 17px;}
+#element-4 .mario i:nth-of-type(3){background-color: #FE0000;left: 139px;top: 17px;}
+#element-4 .mario i:nth-of-type(4){background-color: #FE0000;left: 149px;top: 17px;}
+#element-4 .mario i:nth-of-type(5){background-color: #FE0000;left: 159px;top: 17px;}
+#element-4 .mario i:nth-of-type(6){background-color: #FE0000;left: 109px;top: 27px;}
+#element-4 .mario i:nth-of-type(7){background-color: #FE0000;left: 119px;top: 27px;}
+#element-4 .mario i:nth-of-type(8){background-color: #FE0000;left: 129px;top: 27px;}
+#element-4 .mario i:nth-of-type(9){background-color: #FE0000;left: 139px;top: 27px;}
+#element-4 .mario i:nth-of-type(10){background-color: #FE0000;left: 149px;top: 27px;}
+#element-4 .mario i:nth-of-type(11){background-color: #FE0000;left: 159px;top: 27px;}
+#element-4 .mario i:nth-of-type(12){background-color: #FE0000;left: 169px;top: 27px;}
+#element-4 .mario i:nth-of-type(13){background-color: #FE0000;left: 179px;top: 27px;}
+#element-4 .mario i:nth-of-type(14){background-color: #FE0000;left: 189px;top: 27px;}
+#element-4 .mario i:nth-of-type(15){background-color: #7e1336;left: 109px;top: 37px;}
+#element-4 .mario i:nth-of-type(16){background-color: #7e1336;left: 119px;top: 37px;}
+#element-4 .mario i:nth-of-type(17){background-color: #7e1336;left: 129px;top: 37px;}
+#element-4 .mario i:nth-of-type(18){background-color: #7e1336;left: 99px;top: 47px;}
+#element-4 .mario i:nth-of-type(19){background-color: #7e1336;left: 119px;top: 47px;}
+#element-4 .mario i:nth-of-type(20){background-color: #7e1336;left: 159px;top: 37px;}
+#element-4 .mario i:nth-of-type(21){background-color: #7e1336;left: 159px;top: 47px;}
+#element-4 .mario i:nth-of-type(22){background-color: #7e1336;left: 99px;top: 57px;}
+#element-4 .mario i:nth-of-type(23){background-color: #7e1336;left: 119px;top: 57px;}
+#element-4 .mario i:nth-of-type(24){background-color: #7e1336;left: 129px;top: 57px;}
+#element-4 .mario i:nth-of-type(25){background-color: #7e1336;left: 169px;top: 57px;}
+#element-4 .mario i:nth-of-type(26){background-color: #7e1336;left: 99px;top: 67px;}
+#element-4 .mario i:nth-of-type(27){background-color: #7e1336;left: 109px;top: 67px;}
+#element-4 .mario i:nth-of-type(28){background-color: #7e1336;left: 159px;top: 67px;}
+#element-4 .mario i:nth-of-type(29){background-color: #7e1336;left: 169px;top: 67px;}
+#element-4 .mario i:nth-of-type(30){background-color: #7e1336;left: 179px;top: 67px;}
+#element-4 .mario i:nth-of-type(31){background-color: #7e1336;left: 189px;top: 67px;}
+#element-4 .mario i:nth-of-type(32){background-color: #f8aa00;left: 139px;top: 37px;}
+#element-4 .mario i:nth-of-type(33){background-color: #f8aa00;left: 149px;top: 37px;}
+#element-4 .mario i:nth-of-type(34){background-color: #f8aa00;left: 169px;top: 37px;}
+#element-4 .mario i:nth-of-type(35){background-color: #f8aa00;left: 109px;top: 47px;}
+#element-4 .mario i:nth-of-type(36){background-color: #f8aa00;left: 129px;top: 47px;}
+#element-4 .mario i:nth-of-type(37){background-color: #f8aa00;left: 139px;top: 47px;}
+#element-4 .mario i:nth-of-type(38){background-color: #f8aa00;left: 149px;top: 47px;}
+#element-4 .mario i:nth-of-type(39){background-color: #f8aa00;left: 169px;top: 47px;}
+#element-4 .mario i:nth-of-type(40){background-color: #f8aa00;left: 179px;top: 47px;}
+#element-4 .mario i:nth-of-type(41){background-color: #f8aa00;left: 189px;top: 47px;}
+#element-4 .mario i:nth-of-type(42){background-color: #f8aa00;left: 109px;top: 57px;}
+#element-4 .mario i:nth-of-type(43){background-color: #f8aa00;left: 139px;top: 57px;}
+#element-4 .mario i:nth-of-type(44){background-color: #f8aa00;left: 149px;top: 57px;}
+#element-4 .mario i:nth-of-type(45){background-color: #f8aa00;left: 159px;top: 57px;}
+#element-4 .mario i:nth-of-type(46){background-color: #f8aa00;left: 179px;top: 57px;}
+#element-4 .mario i:nth-of-type(47){background-color: #f8aa00;left: 189px;top: 57px;}
+#element-4 .mario i:nth-of-type(48){background-color: #f8aa00;left: 199px;top: 57px;}
+#element-4 .mario i:nth-of-type(49){background-color: #f8aa00;left: 119px;top: 67px;}
+#element-4 .mario i:nth-of-type(50){background-color: #f8aa00;left: 129px;top: 67px;}
+#element-4 .mario i:nth-of-type(51){background-color: #f8aa00;left: 139px;top: 67px;}
+#element-4 .mario i:nth-of-type(52){background-color: #f8aa00;left: 149px;top: 67px;}
+#element-4 .mario i:nth-of-type(53){background-color: #f8aa00;left: 119px;top: 77px;}
+#element-4 .mario i:nth-of-type(54){background-color: #f8aa00;left: 129px;top: 77px;}
+#element-4 .mario i:nth-of-type(55){background-color: #f8aa00;left: 139px;top: 77px;}
+#element-4 .mario i:nth-of-type(56){background-color: #f8aa00;left: 149px;top: 77px;}
+#element-4 .mario i:nth-of-type(57){background-color: #f8aa00;left: 159px;top: 77px;}
+#element-4 .mario i:nth-of-type(58){background-color: #f8aa00;left: 169px;top: 77px;}
+#element-4 .mario i:nth-of-type(59){background-color: #f8aa00;left: 179px;top: 77px;}
+#element-4 .mario i:nth-of-type(60){background-color: #FE0000;left: 109px;top: 87px;width: 20px;}
+#element-4 .mario i:nth-of-type(61){background-color: #FE0000;left: 139px;top: 87px;width: 20px;}
+#element-4 .mario i:nth-of-type(62){background-color: #FE0000;left: 159px;top: 87px;}
+#element-4 .mario i:nth-of-type(63){background-color: #FE0000;left: 99px;top: 97px;}
+#element-4 .mario i:nth-of-type(64){background-color: #FE0000;left: 109px;top: 97px;}
+#element-4 .mario i:nth-of-type(65){background-color: #FE0000;left: 119px;top: 97px;}
+#element-4 .mario i:nth-of-type(66){background-color: #FE0000;left: 139px;top: 97px;}
+#element-4 .mario i:nth-of-type(67){background-color: #FE0000;left: 149px;top: 97px;}
+#element-4 .mario i:nth-of-type(68){background-color: #FE0000;left: 169px;top: 97px;}
+#element-4 .mario i:nth-of-type(69){background-color: #0026ff;left: 129px;top: 87px;}
+#element-4 .mario i:nth-of-type(70){background-color: #0026ff;left: 129px;top: 97px;}
+#element-4 .mario i:nth-of-type(71){background-color: #0026ff;left: 129px;top: 107px;}
+#element-4 .mario i:nth-of-type(72){background-color: #0026ff;left: 139px;top: 107px;}
+#element-4 .mario i:nth-of-type(73){background-color: #0026ff;left: 149px;top: 107px;}
+#element-4 .mario i:nth-of-type(74){background-color: #0026ff;left: 159px;top: 107px;}
+#element-4 .mario i:nth-of-type(75){background-color: #0026ff;left: 119px;top: 117px;}
+#element-4 .mario i:nth-of-type(76){background-color: #0026ff;left: 139px;top: 117px;}
+#element-4 .mario i:nth-of-type(77){background-color: #0026ff;left: 149px;top: 117px;}
+#element-4 .mario i:nth-of-type(78){background-color: #0026ff;left: 169px;top: 117px;}
+#element-4 .mario i:nth-of-type(79){background-color: #0026ff;left: 119px;top: 127px;}
+#element-4 .mario i:nth-of-type(80){background-color: #0026ff;left: 129px;top: 127px;}
+#element-4 .mario i:nth-of-type(81){background-color: #0026ff;left: 139px;top: 127px;}
+#element-4 .mario i:nth-of-type(82){background-color: #0026ff;left: 149px;top: 127px;}
+#element-4 .mario i:nth-of-type(83){background-color: #0026ff;left: 159px;top: 127px;  }
+#element-4 .mario i:nth-of-type(84){background-color: #0026ff;left: 169px;top: 127px;}
+#element-4 .mario i:nth-of-type(85){background-color: #FE0000;left: 119px;top: 107px;}
+#element-4 .mario i:nth-of-type(86){background-color: #FE0000;left: 109px;top: 107px;}
+#element-4 .mario i:nth-of-type(87){background-color: #FE0000;left: 99px;top: 107px;}
+#element-4 .mario i:nth-of-type(88){background-color: #FE0000;left: 109px;top: 117px;}
+#element-4 .mario i:nth-of-type(89){background-color: #FE0000;left: 89px;top: 107px;}
+#element-4 .mario i:nth-of-type(90){background-color: #FE0000;left: 179px;top: 107px;}
+#element-4 .mario i:nth-of-type(91){background-color: #0026ff;left: 159px;top: 97px;}
+#element-4 .mario i:nth-of-type(92){background-color: #FE0000;left: 169px;top: 107px;}
+#element-4 .mario i:nth-of-type(93){background-color: #FE0000;left: 189px;top: 107px;}
+#element-4 .mario i:nth-of-type(94){background-color: #FE0000;left: 179px;top: 117px;}
+#element-4 .mario i:nth-of-type(95){background-color: #FE0000;left: 189px;top: 97px;}
+#element-4 .mario i:nth-of-type(96){background-color: #FE0000;left: 199px;top: 107px;}
+#element-4 .mario i:nth-of-type(97){background-color: #FE0000;left: 179px;top: 97px;}
+#element-4 .mario i:nth-of-type(98){background-color: #0026ff;left: 109px;top: 137px;}
+#element-4 .mario i:nth-of-type(99){background-color: #0026ff;left: 119px;top: 137px;}
+#element-4 .mario i:nth-of-type(100){background-color: #0026ff;left: 129px;top: 137px;}
+#element-4 .mario i:nth-of-type(101){background-color: #0026ff;left: 139px;top: 137px;}
+#element-4 .mario i:nth-of-type(102){background-color: #0026ff;left: 149px;top: 137px;}
+#element-4 .mario i:nth-of-type(103){background-color: #0026ff;left: 159px;top: 137px;}
+#element-4 .mario i:nth-of-type(104){background-color: #0026ff;left: 169px;top: 137px;}
+#element-4 .mario i:nth-of-type(105){background-color: #0026ff;left: 179px;top: 137px;}
+#element-4 .mario i:nth-of-type(106){background-color: #f8aa00;left: 109px;top: 127px;}
+#element-4 .mario i:nth-of-type(107){background-color: #f8aa00;left: 99px;top: 117px;}
+#element-4 .mario i:nth-of-type(108){background-color: #f8aa00;left: 89px;top: 117px;}
+#element-4 .mario i:nth-of-type(109){background-color: #f8aa00;left: 99px;top: 127px;}
+#element-4 .mario i:nth-of-type(110){background-color: #f8aa00;left: 89px;top: 127px;}
+#element-4 .mario i:nth-of-type(111){background-color: #f8aa00;left: 89px;top: 137px;}
+#element-4 .mario i:nth-of-type(112){background-color: #f8aa00;left: 99px;top: 137px;}
+#element-4 .mario i:nth-of-type(113){background-color: #f8aa00;left: 179px;top: 127px;}
+#element-4 .mario i:nth-of-type(114){background-color: #f8aa00;left: 189px;top: 117px;}
+#element-4 .mario i:nth-of-type(115){background-color: #f8aa00;left: 189px;top: 127px;}
+#element-4 .mario i:nth-of-type(116){background-color: #f8aa00;left: 189px;top: 137px;}
+#element-4 .mario i:nth-of-type(117){background-color: #f8aa00;left: 199px;top: 117px;}
+#element-4 .mario i:nth-of-type(118){background-color: #f8aa00;left: 199px;top: 127px;}
+#element-4 .mario i:nth-of-type(119){background-color: #f8aa00;left: 199px;top: 137px;}
+#element-4 .mario i:nth-of-type(120){background-color: #0026ff;left: 179px;top: 147px;}
+#element-4 .mario i:nth-of-type(121){background-color: #0026ff;left: 169px;top: 147px;}
+#element-4 .mario i:nth-of-type(122){background-color: #0026ff;left: 159px;top: 147px;}
+#element-4 .mario i:nth-of-type(123){background-color: #0026ff;left: 129px;top: 147px;}
+#element-4 .mario i:nth-of-type(124){background-color: #0026ff;left: 119px;top: 147px;}
+#element-4 .mario i:nth-of-type(125){background-color: #0026ff;left: 109px;top: 147px;}
+#element-4 .mario i:nth-of-type(126){background-color: #7e1336;left: 99px;top: 155px;}
+#element-4 .mario i:nth-of-type(127){background-color: #7e1336;left: 109px;top: 155px;}
+#element-4 .mario i:nth-of-type(128){background-color: #7e1336;left: 119px;top: 155px;}
+#element-4 .mario i:nth-of-type(129){background-color: #7e1336;left: 169px;top: 157px;}
+#element-4 .mario i:nth-of-type(130){background-color: #7e1336;left: 179px;top: 157px;}
+#element-4 .mario i:nth-of-type(131){background-color: #7e1336;left: 189px;top: 157px;}
+#element-4 .mario i:nth-of-type(132){background-color: #7e1336;left: 89px;top: 165px;}
+#element-4 .mario i:nth-of-type(133){background-color: #7e1336;left: 99px;top: 165px;}
+#element-4 .mario i:nth-of-type(134){background-color: #7e1336;left: 109px;top: 165px;}
+#element-4 .mario i:nth-of-type(135){background-color: #7e1336;left: 119px;top: 165px;}
+#element-4 .mario i:nth-of-type(136){background-color: #7e1336;left: 169px;top: 167px;}
+#element-4 .mario i:nth-of-type(137){background-color: #7e1336;left: 179px;top: 167px;}
+#element-4 .mario i:nth-of-type(138){background-color: #7e1336;left: 189px;top: 167px;}
+#element-4 .mario i:nth-of-type(139){background-color: #7e1336;left: 199px;top: 167px;}
+#element-4 .mario i:nth-of-type(140){background-color: #f8aa00;left: 129px;top: 117px;}
+#element-4 .mario i:nth-of-type(141){background-color: #f8aa00;left: 159px;top: 117px;}
+
+
+
+
+
